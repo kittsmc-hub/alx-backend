@@ -4,11 +4,18 @@
   "description": "",
   "main": "0-redis_client.js",
   "dependencies": {
+    "babel": "^6.23.0",
+    "kue": "^0.11.6",
     "redis": "^4.6.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.14"
+  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node 0-redis_client.js"
   },
   "keywords": [],
   "author": "",
